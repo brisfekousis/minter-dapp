@@ -8,13 +8,13 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Weird Warthogs";
-const description = "Weird Warthogs is a limited collection of 10,000 unique, programmatically generated NFTs hosted on the Polygon blockchain. Each Weird Warthog is unique - just like you and programmatically generated from 8 properties of varying rarities, from common to ultra rare. Possible traits, including various backgrounds, clothing, earrings and more.";
+const description = "Weird Warthogs is a limited collection of 9,567 unique, programmatically generated NFTs hosted on the Polygon blockchain. Each Weird Warthog is unique - just like you and programmatically generated from 8 properties of varying rarities, from common to ultra rare. Possible traits, including various backgrounds, clothing, earrings and more.";
 const baseUri = "ipfs://NewUriToReplace";
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 50,
+    growEditionSizeTo: 9567,
     layersOrder: [
       { name: "Background" },
       { name: "Background Overlay" },
@@ -55,12 +55,12 @@ const CONTRACT_SYMBOL = 'WW';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x0DBeE5241F9D42538859c98B25C1c987b95E3A5D';
 const TREASURY_ADDRESS = '0x0DBeE5241F9D42538859c98B25C1c987b95E3A5D';
-const MAX_SUPPLY = 10000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const MAX_SUPPLY = 9567; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-03-20T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-04-14T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
@@ -138,7 +138,7 @@ const background = {
 
 const rarityDelimiter = "#";
 
-const uniqueDnaTorrance = 10000;
+const uniqueDnaTorrance = 9567;
 
 const preview = {
   thumbPerRow: 5,

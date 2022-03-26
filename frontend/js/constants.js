@@ -3,7 +3,7 @@ const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Weird Warthogs NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'Weird Warthogs is a limited collection of 10,000 unique, programmatically generated NFTs hosted on the Polygon blockchain. Each Weird Warthog is unique - just like you and programmatically generated from 8 properties of varying rarities, from common to ultra rare. Possible traits, including various backgrounds, clothing, earrings and more!';
+const welcome_p = 'Weird Warthogs is a limited collection of 9,567 unique, programmatically generated NFTs hosted on the Polygon blockchain. Each Weird Warthog is unique - just like you and programmatically generated from 8 properties of varying rarities, from common to ultra rare. Possible traits, including various backgrounds, clothing, earrings and more!';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
