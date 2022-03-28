@@ -11641,30 +11641,8 @@ footer a:hover, footer a:active, footer a:focus {
 }
 
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 
-body {
-  background-color: var(--bg-color);
-  display: flex;
-  flex-flow: column;
-  height: 100vh;
-  color: var(--font-color);
-  font-family: var(--font-primary);
-}
 
-.container {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* max-width: 960px; */
-  /* margin: 0 auto; */
-  /* padding: 1rem 2rem; */
-  /* justify-content: center; */
-  /* overflow: hidden; */
-}
 
 /* HEADER */
 
@@ -11690,7 +11668,7 @@ header .container {
   align-items: center;
   height: 100%;
   text-align: center;
-  margin: 0 auto 0 35vw;
+  /* margin: 0 auto 0 35vw; */
   opacity: 0;
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
@@ -11698,7 +11676,7 @@ header .container {
 
 .show-not-connected {
   opacity: 1;
-  transform: translateY(0);
+  /* transform: translateY(0); */
 }
 
 .not-connected h1 {
